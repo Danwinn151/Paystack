@@ -4,11 +4,11 @@ import Card from "../assets/card.png"
 
 const CardDeal = () => {
   return (
-    <section id='cardDeal' className='flex flex-col md:flex-row justify-between items-start'>
+    <section id='cardDeal' className='flex  sm:px-16 flex-col md:flex-row justify-between items-start'>
       <div>
+     <div className='stdiv absolute w-[35%] h-[60%] blue__gradient right-3'/>
         <h1 className={`${styles.heading2} text-white`}>
-       Find a Better Card Deal <br className='sm:block hidden'/>
-        In few easy steps
+       Find a Better Card Deal In few easy steps
        </h1>
        <p className={`${styles.paragraph} text-white max-w-[470px]`}>
        Arcu tortor, pusrus in nattis at sed integer faucibus. Aliquet quis alisquet eget nauris 

@@ -6,24 +6,24 @@ import { styles } from '../style'
 
 const Footer = () => {
   return (
-    <section id='footer' className='w-full  flex  flex-col justify-center sm:px-16 px-6 py-4 mt-8'>
-       <div className='flex md:flex-row flex-col'>
+    <section id='footer' className='w-full  flex  flex-col justify-between sm:px-16 px-6 py-4 mt-8'>
+       <div className='flex justify-between md:flex-row flex-col'>
        <div>
         <img src={OIP} className="w-[150px]"/>
-        <p className='text-white font-poppins w-[400px] py-4'>A new Way to make the payments easy, 
+        <p className='text-white font-semibold font-poppins w-[400px] py-4'>A new Way to make the payments easy, 
         reliable and secure</p>
        </div>
-          <div className='flex flex-row stdiv  justify-between px-4 sm:px-16'>
+          <div className='flex flex-row  justify-between px-4 sm:px-16'>
             {footerLinks.map(footerLink => {
               return (
                 <div>
-                   <h1 className='text-white text-[18px] mr-10 font-poppins'>
+                   <h1 className='text-white font-bold text-[18px] mr-10 font-poppins'>
                  {footerLink.title}
                  </h1> 
-                 <ul className='li list-none mt-4'>
+                 <ul className='li list-none py-3 px-1'>
                   {footerLink.links.map(link => {
                     return (
-                      <li className='text-white' key={link.link}>
+                      <li className='text-white mt-2 font-poppins font-normal' key={link.link}>
                         {link.name}
                       </li>
                     )
@@ -43,6 +43,7 @@ const Footer = () => {
       2022 Paystack All Rights Reserved
       </p>
       </div>
+      <hr className='text-center flex justify-center'/>
       <div>
          <ul className='list-none py-4 mt-4 flex flex-row justify-center'>
      {socialMedia.map(media => {

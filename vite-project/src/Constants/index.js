@@ -15,6 +15,9 @@ import instagram from "../assets/instagram.svg"
 import facebook from "../assets/facebook.svg"
 import linkedin from "../assets/linkedin.svg"
 import twitter from "../assets/twitter.svg"
+import people01 from "../assets/Daniel.png"
+import people02 from "../assets/Kyle.jpg"
+import people03 from "../assets/Victor.jpg"
 export const NavLinks = [
     {
         id:1,
@@ -76,7 +79,32 @@ export const Features = [
         message: "A balance transfer credit card can save you a lot of money in interest charges"
      }
 ]
-
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    name: "Daniel Miracle",
+    title: "Founder & Leader",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Kyle cook",
+    title: "Founder & Leader",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Victor iwatannaye",
+    title: "Founder & Leader",
+    img: people03,
+  },
+];
 export const clients =  [
     {
         id: 1,

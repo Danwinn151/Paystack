@@ -9,10 +9,18 @@ const [Toggle, setToggle] = useState(false)
 const ToggleButton = () => {
   setToggle(prevValue => !prevValue)
 }
+const styles = {
+  position: "fixed",
+  top: "0",
+  right: "0%",
+  width: "100%",
+  zIndex: "10"
+}
   return (
   <>
-    <nav className='w-full py-6 flex justify-between items-center text-white navbar'>
-        <img src={OIP} className="w-[100px]" alt="paystack"  />
+    <nav style={styles} className='w-full bg-black-gradient  py-6 flex z-10 justify-between items-center text-white navbar'>
+     
+      <img src={OIP} className="w-[100px] ml-10  z-20" alt="paystack"  />
              <ul className='list-none sm:flex hidden justify-end items-end'>
               {NavLinks.map((link,index) => {
                 return (
@@ -44,6 +52,8 @@ const ToggleButton = () => {
                  
                 </ul>
             </div>
+     
+        
     </nav>
   </>
   )

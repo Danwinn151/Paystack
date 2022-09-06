@@ -3,8 +3,9 @@ import { Features } from '../Constants'
 
 const Business = () => {
   return (
-    <section id='AboutUs' className={`flex md:flex-row flex justify-between flex-col xl:px-16 px-6 xl:px-0`}>
-      <div className='flex-col px-4 py-4'>
+    <section id='AboutUs' className={`flex md:flex-row  justify-between flex-col xl:px-24 px-6`}>
+      <div className='flex-col px-8 py-4'>
+           <div className='absolute w-[35%] right-11 red__gradient h-[50%]'/>
           <h1 className='font-poppins text-white text-[40px] leading-[50px]'>
           You do the business,<br/>
           We handle the money.

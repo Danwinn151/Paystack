@@ -6,7 +6,7 @@ import { styles } from '../style'
 
 const Billing = () => {
   return (
-    <section id='bill' className='flex flex justify-start items-start flex-col md:flex-row sm:px-16 px-6'>
+    <section id='bill' className='flex  justify-start items-start flex-col md:flex-row sm:px-16 px-6'>
         <div>
           <img src={bill} alt="bill"/>
         </div>
