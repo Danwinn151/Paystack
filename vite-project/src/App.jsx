@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-primary w-full overflow-hidden sticky'>
+      <div className='bg-primary w-full sticky'>
        <div className=' flex justify-center items-center  sm:px-16 px-6'>
          <div className='w-full xl:w-[1280px] '>
          <Navbar/>

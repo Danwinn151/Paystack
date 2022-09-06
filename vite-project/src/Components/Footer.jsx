@@ -10,14 +10,14 @@ const Footer = () => {
        <div className='flex justify-between md:flex-row flex-col'>
        <div>
         <img src={OIP} className="w-[150px]"/>
-        <p className='text-white font-semibold font-poppins w-[400px] py-4'>A new Way to make the payments easy, 
+        <p className='text-white font-semibold font-poppins py-4'>A new Way to make the payments easy, 
         reliable and secure</p>
        </div>
           <div className='flex flex-row  justify-between px-4 sm:px-16'>
-            {footerLinks.map(footerLink => {
+            {footerLinks.map((footerLink, index) => {
               return (
                 <div>
-                   <h1 className='text-white font-bold text-[18px] mr-10 font-poppins'>
+                   <h1 className={`text-white font-bold text-[18px]  ${index === footerLink.length - 1 ? 'mr-0': 'mr-6'}  font-poppins`}>
                  {footerLink.title}
                  </h1> 
                  <ul className='li list-none py-3 px-1'>

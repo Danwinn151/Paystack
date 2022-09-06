@@ -6,7 +6,7 @@ const CardDeal = () => {
   return (
     <section id='cardDeal' className='flex  sm:px-16 flex-col md:flex-row justify-between items-start'>
       <div>
-     <div className='stdiv absolute w-[35%] h-[60%] blue__gradient right-3'/>
+    
         <h1 className={`${styles.heading2} text-white`}>
        Find a Better Card Deal In few easy steps
        </h1>

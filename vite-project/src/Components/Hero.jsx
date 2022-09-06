@@ -7,8 +7,8 @@ const Hero = () => {
   return (
    <section id='home' className={`flex  mt-4 md:flex-row flex-col ${styles.marginY}`}>
      <div className='flex flex-1 justofy-start items-start flex-col  xl:px-0 sm:px-16 px-6'>
-      <div className='absolute z-[0] pink__gradient  bottom-100 stdiv w-[30%] h-[40%]'/>
-      <div className='bg-black-gradient py-5 px-4 relative z-[0] flex flex-row items-center rounded-xl'>
+      <div className='absolute z-[0] pink__gradient  bottom-100  w-[30%] h-[40%]'/>
+      <div className='bg-black-gradient py-5 px-4  flex flex-row items-center rounded-xl'>
         <img src={Discount} alt="discount"/>
         <p className={`font-poppins text-blue-300 ml-2`}>
           <span className='text-white'>50%
